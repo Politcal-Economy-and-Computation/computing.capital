@@ -111,7 +111,7 @@
   }
 
   main {
-    max-width: 72ch;
+    max-width: min(72ch, 80%);
     display: flex;
     flex-direction: column;
     place-items: center;
