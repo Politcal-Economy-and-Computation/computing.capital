@@ -111,7 +111,8 @@
   }
 
   main {
-    max-width: min(72ch, 80%);
+    padding: 1rem;
+    max-width: min(72ch, 100%);
     display: flex;
     flex-direction: column;
     place-items: center;
