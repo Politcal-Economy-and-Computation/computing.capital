@@ -1,0 +1,1 @@
+import{t as e,i as l,g as o,j as a}from"./1rH-BUDG.js";import{l as c}from"./DIeogL5L.js";function r(t){o===null&&e(),c&&o.l!==null?u(o).m.push(t):l(()=>{const n=a(t);if(typeof n=="function")return n})}function u(t){var n=t.l;return n.u??={a:[],b:[],m:[]}}export{r as o};
