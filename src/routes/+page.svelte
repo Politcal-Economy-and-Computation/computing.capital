@@ -56,11 +56,11 @@
       computing technologies are situated within the current racial capitalist
       social order and how we might use computing technologies towards
       liberatory ends. We like to draw on thinkers like Karl Marx, Silvia
-      Frederici, or Cedric Robinson (etc.) and most of our members tend to be
+      Federici, or Cedric Robinson (etc.) and most of our members tend to be
       engaged in liberatory social movements, whether that be through workplace
       organization (such as graduate student and faculty unionization),
       internationalist solidarity movements (such as solidarity with Palestinian
-      liberation), tena.
+      liberation).
     </p>
 
     <p>
@@ -85,9 +85,9 @@
     <p>
       We have many ways that our members can participate. The primary way to
       engage with the collective is to attend our weekly meetings on Thursdays,
-      10-11AM EST on Zoom and in person at the University of Michigan.
+      10:00 to 11:00 am (Eastern Time) on Zoom and in person at the University of Michigan.
       Asynchronous participation is also possible through our listserv and
-      groupchat. Finally, we host several public-facing events a year, thanks to
+      group chat. Finally, we host several public-facing events a year, thanks to
       funding from the University of Michigan through the Rackham
       Interdisciplinary Workshop grants and MDemocracy grant.
     </p>
