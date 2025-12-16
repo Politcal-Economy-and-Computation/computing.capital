@@ -12,9 +12,9 @@
   <header>
     <nav>
       <a href="/">Home</a>
-<!--      <a href="/syllabus">Syllabus</a>-->
       <a href="/members">Members</a>
       <a href="/conference">May 2026 Conference</a>
+      <a href="/publications"> Publications and Projects</a>
     </nav>
   </header>
   {@render children()}
