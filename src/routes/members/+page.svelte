@@ -15,7 +15,8 @@
   
   onMount(async () => {
     const response = await fetch('/data/members.json');
-    members = shuffleArray(await response.json());
+    var members_unsort = await response.json();
+    members = shuffleArray(members_unsort)
   });
 </script>
 
