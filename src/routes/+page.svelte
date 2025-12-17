@@ -128,14 +128,14 @@
   <hr class="hr"/>
   
   {#if body}
-    <p>
+    <p class="text-surface-300 text-left my-2">
       {body}
     </p>
-    <p class="text-right self-end my-2">
-      --{author}
+    <p class="text-right self-end my-2 text-surface-300">
+      -- {author}
     </p>
   {:else}
-    <p class="my-2 text-surface-400">Loading quote...</p>
+    <p class="my-2 text-surface-200">Loading quote...</p>
   {/if}
   
   <!-- Animation Toggle Button -->
