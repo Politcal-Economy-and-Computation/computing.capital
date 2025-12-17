@@ -26,10 +26,10 @@
   <ul>
     {#each members as member}
       <li>
-        {member.name} • 
+        {member.name} • {member.institution} • 
         <a href={member.url} target="_blank" rel="noopener noreferrer">
-          {member.url}
-        </a> • {member.institution}
+          {member.display_url}
+        </a>
       </li>
     {/each}
   </ul>
