@@ -7,3 +7,25 @@
 @import '../penastheme';
 
 @custom-variant dark (&:where([data-mode="dark"], [data-mode="dark"] *));
+
+@layer base {
+  a {
+    @apply anchor;
+  }
+  
+  h1 {
+    @apply text-center text-3xl font-bold mb-4;
+  }
+
+  h2 {
+    @apply text-3xl font-bold mb-4;
+  }
+  
+  ul {
+    @apply space-y-2;
+  }
+
+  p {
+    @apply my-2;
+  }
+}

@@ -53,7 +53,7 @@
 
 <div class="flex flex-col items-center" bind:clientHeight={maxHeight}>
 
-  <h1 class="text-center text-3xl font-bold mb-4">Political Economy and Algorithms Collective</h1>
+  <h1>Political Economy and Algorithms Collective</h1>
 
 
     <div id="marx-image" class="relative">
@@ -71,7 +71,7 @@
     {/if}
   </div>
   
-  <p class="my-2">
+  <p>
     The Political Economy and Algorithms collective, also known as Political
     Economy and Computation or Political Economy and Computer Science, is an
     interdisciplinary and multi-institutional academic, activist, and
@@ -81,7 +81,7 @@
     based in Ann Arbor, with members from across the world.
   </p>
 
-  <p class="my-2">
+  <p>
     Our collective shares a political commitment to building a more just and
     liberatory world, with a particular interest in understanding how
     computing technologies are situated within the current racial capitalist
@@ -94,7 +94,7 @@
     liberation).
   </p>
 
-  <p class="my-2">
+  <p>
     Organizers and intellectuals from all walks of life, all geographic
     contexts, all flavors of Marxist inquiry, and all institutional or
     non-institutional contexts are welcome to join. We ask that those who join
@@ -102,7 +102,7 @@
     outlined above.
   </p>
   
-  <p class="my-2">
+  <p>
     To join, first send us an email at <a
         href="mailto:political-economy-and-algorithms-requests@umich.edu"
         >political-economy-and-algorithms-requests@umich.edu</a
@@ -115,7 +115,7 @@
       anyone can add comrades to the group.
   </p>
   
-  <p class="my-2">
+  <p>
     We have many ways that our members can participate. The primary way to
     engage with the collective is to attend our weekly meetings on Thursdays,
     10:00 to 11:00 am (Eastern Time) on Zoom and in person at the University of Michigan.
@@ -125,17 +125,17 @@
     Interdisciplinary Workshop grants and MDemocracy grant.
   </p>
   
-  <hr class="hr" />
+  <hr class="hr"/>
   
   {#if body}
-    <p class="my-2">
+    <p>
       {body}
     </p>
     <p class="text-right self-end my-2">
       --{author}
     </p>
   {:else}
-    <p class="my-2 text-surface-600">Loading quote...</p>
+    <p class="my-2 text-surface-400">Loading quote...</p>
   {/if}
   
   <!-- Animation Toggle Button -->
@@ -148,5 +148,4 @@
       <Hammer class="size-6" />
     </button>
   </div>
-
 </div>

@@ -37,7 +37,7 @@
   <AppBar class="bg-primary-600">
     <AppBar.Toolbar class="grid-cols-[1fr_2fr]">
       <AppBar.Lead>
-        <p class="text-xl text-secondary-50">Political Economy + Algorithms</p>
+        <p class="text-xl text-secondary-50 my-0">Political Economy + Algorithms</p>
       </AppBar.Lead>
 
       <AppBar.Trail class="justify-end">

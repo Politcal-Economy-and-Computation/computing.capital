@@ -1,19 +1,16 @@
 <div class="flex flex-col items-center">
-  <h2 class="text-3xl font-bold mb-4">Publications</h2>
+  <h2>Publications</h2>
   
-  <ul class="space-y-2 w-full">
+  <ul>
     <li>
       <a 
         href="https://arxiv.org/abs/2508.08313" 
         target="_blank" 
-        rel="noopener noreferrer"
-        class="anchor">
+        rel="noopener noreferrer">
         Resisting AI Solutionism through Workplace Collective Action
       </a>, Presented at "Resisting AI Solutionism: Where Do We Go From Here?" workshop at CHI '25
     </li>
   </ul>
-  
-  <div class="h-40" />
 </div>
 
 <!-- <style>
