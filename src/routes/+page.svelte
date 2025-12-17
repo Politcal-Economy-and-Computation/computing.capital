@@ -132,7 +132,7 @@
       {body}
     </p>
     <p class="text-right self-end my-2 text-surface-300">
-      -- {author}
+      &mdash;{author}
     </p>
   {:else}
     <p class="my-2 text-surface-200">Loading quote...</p>
