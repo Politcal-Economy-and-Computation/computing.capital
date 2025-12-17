@@ -1,54 +1,69 @@
 <script lang="ts">
+  import './layout.css';
   import favicon from "$lib/assets/favicon.svg";
-
+  import { AppBar } from '@skeletonlabs/skeleton-svelte';
+  import { Moon, Sun } from '@lucide/svelte';
+  import { browser } from '$app/environment';
+  
   let { children } = $props();
+  
+  let isDark = $state(false);
+  
+  // Initialize theme from localStorage or default to light
+  $effect(() => {
+    if (browser) {
+      const stored = localStorage.getItem('theme');
+      isDark = stored === 'dark';
+      
+      // Set data-mode attribute
+      document.documentElement.setAttribute('data-mode', isDark ? 'dark' : 'light');
+    }
+  });
+  
+  function toggleTheme() {
+    isDark = !isDark;
+    document.documentElement.setAttribute('data-mode', isDark ? 'dark' : 'light');
+    
+    if (browser) {
+      localStorage.setItem('theme', isDark ? 'dark' : 'light');
+    }
+  }
+
 </script>
 
-<svelte:head>
-  <link rel="icon" href={favicon} />
-</svelte:head>
+<svelte:head><link rel="icon" href={favicon} /></svelte:head>
 
-<div class="container">
-  <header>
-    <nav>
-      <a href="/">Home</a>
-      <a href="/members">Members</a>
-      <a href="/conference">May 2026 Conference</a>
-      <a href="/publications"> Publications and Projects</a>
-    </nav>
-  </header>
-  {@render children()}
+<div class="flex flex-col min-h-screen">
+  <AppBar class="bg-primary-600">
+    <AppBar.Toolbar class="grid-cols-[1fr_2fr]">
+      <AppBar.Lead>
+        <p class="text-xl text-secondary-50">Political Economy + Algorithms</p>
+      </AppBar.Lead>
+
+      <AppBar.Trail class="justify-end">
+        <nav class="flex gap-6 items-center">
+          <a href="/" class="anchor text-secondary-50">Home</a>
+          <a href="/members" class="anchor text-secondary-50">Members</a>
+          <a href="/conference" class="anchor text-secondary-50">May 2026 Conference</a>
+          <a href="/publications" class="anchor text-secondary-50">Publications and Projects</a>
+          
+          <button 
+            onclick={toggleTheme}
+            class="btn-icon btn-icon-sm hover:preset-tonal text-secondary-50"
+            aria-label="Toggle theme"
+          >
+            {#if isDark}
+              <Sun class="size-5" />
+            {:else}
+              <Moon class="size-5" />
+            {/if}
+          </button>
+        </nav>
+      </AppBar.Trail>
+    </AppBar.Toolbar>
+  </AppBar>
+
+  <main class="flex-1 w-full max-w-3xl mx-auto px-4 mt-8">
+    {@render children()}
+  </main>
 </div>
-
-<style>
-  :global(*) {
-    box-sizing: border-box;
-  }
-
-  .container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  header {
-    width: 100%;
-    margin: 2rem;
-    display: flex;
-    justify-content: center;
-  }
-
-  nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 3rem;
-  }
-
-  :global(html),
-  :global(body) {
-    cursor: url("/marx-cursor.png"), auto;
-    padding: 0;
-    margin: 0;
-  }
-</style>
