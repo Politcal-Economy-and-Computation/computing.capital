@@ -12,33 +12,3 @@
     </li>
   </ul>
 </div>
-
-<!-- <style>
-    .wrapper {
-        width: 100vw;
-        display: flex;
-        place-content: center;
-    }
-
-    main {
-        padding: 1rem;
-        max-width: min(72ch, 100%);
-        display: flex;
-        flex-direction: column;
-        place-items: center;
-    }
-
-    h1 {
-        text-align: center;
-    }
-
-    hr {
-        height: 0.1rem;
-        background: black;
-        width: 100%;
-    }
-
-    p {
-        margin: 0.5rem 0;
-    }
-</style> -->
