@@ -6,6 +6,7 @@
         const j = Math.floor(Math.random() * (i + 1));
         [array[i], array[j]] = [array[j], array[i]];
     }
+    return array;
   }
   
   /**
@@ -16,7 +17,7 @@
   onMount(async () => {
     const response = await fetch('/data/members.json');
     var members_unsort = await response.json();
-    members = shuffleArray(members_unsort)
+    members = shuffleArray(members_unsort);
   });
 </script>
 
