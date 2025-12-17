@@ -1,7 +1,6 @@
 <div class="flex flex-col items-center">
-  <h2 class="text-2xl font-bold mb-4">Members</h2>
-  <hr class="hr" />
-  
+  <h2 class="text-3xl font-bold mb-4">Members</h2>
+
   <ul class="space-y-2">
     <li>
       Gena Kim • 
