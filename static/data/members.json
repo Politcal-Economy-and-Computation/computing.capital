@@ -1,0 +1,23 @@
+[
+  { 
+    "name": "Gena Kim", 
+    "url": "https://gena.kim", 
+    "institution": "University of Michigan" 
+  },
+  { 
+    "name": "Kevin Zheng", 
+    "url": "https://ze.vin", 
+    "institution": "University of Michigan" 
+  },
+  { 
+    "name": "Justine Zhang", 
+    "url": "https://tisjune.github.io", 
+    "institution": "University of Michigan" 
+  },
+  { 
+    "name": "Karl M.", 
+    "url": "https://en.wikipedia.org/wiki/Karl_Marx",
+    "institution": "Out There"
+  }
+
+]
