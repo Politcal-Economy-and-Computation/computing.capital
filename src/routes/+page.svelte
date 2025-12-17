@@ -4,20 +4,26 @@
   import Franklin from "$lib/Franklin.svelte";
   import { Hammer } from '@lucide/svelte';
 
-  let author;
-  let body;
+  // For quote
+  let author = $state(undefined);
+  let body = $state(undefined);
+  
   onMount(async () => {
-    const quote = await fetch("https://leftist-quotes.com").then((res) =>
-      res.json(),
-    );
-    author = quote.attribution;
-    body = quote.body;
+    try {
+      const quote = await fetch("https://leftist-quotes.com").then((res) =>
+        res.json(),
+      );
+      author = quote.attribution;
+      body = quote.body;
+    } catch (error) {
+      console.error('Failed to load quote:', error);
+    }
   });
 
-  // For Franklins
-  let pageX = 0;
-  let pageY = 0;
-  let maxHeight;
+ // For Franklins
+  let pageX = $state(0);
+  let pageY = $state(0);
+  let maxHeight = $state(undefined);
 
   let animationsEnabled = $state(false);
   
@@ -46,9 +52,9 @@
 {/if}
 
 <div class="flex flex-col items-center" bind:clientHeight={maxHeight}>
-  <hr class="hr" />
+
   <h1 class="text-center text-3xl font-bold mb-4">Political Economy and Algorithms Collective</h1>
-  <hr class="hr" />
+
 
     <div id="marx-image" class="relative">
     <img src="/marx.png" class="w-[450px] my-8" alt="A portrait of Karl Marx." />
@@ -121,12 +127,16 @@
   
   <hr class="hr" />
   
-  <p class="my-2">
-    {body}
-  </p>
-  <p class="text-right self-end my-2">
-    --{author}
-  </p>
+  {#if body}
+    <p class="my-2">
+      {body}
+    </p>
+    <p class="text-right self-end my-2">
+      --{author}
+    </p>
+  {:else}
+    <p class="my-2 text-surface-600">Loading quote...</p>
+  {/if}
   
   <!-- Animation Toggle Button -->
   <div class="fixed bottom-4 right-4">
