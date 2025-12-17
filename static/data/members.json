@@ -15,9 +15,23 @@
     "institution": "University of Michigan" 
   },
   { 
-    "name": "Karl M.", 
-    "url": "https://en.wikipedia.org/wiki/Karl_Marx",
-    "institution": "Out There"
+    "name": "Alicia DeVrio", 
+    "url": "https://www.aliciadevrio.com",
+    "institution": "Carnegie Mellon University"
+  },
+  {
+    "name": "Freddy Reiber",
+    "url": "https://freddyreiber.info/",
+    "institution": "Boston University"
+  },
+  {
+    "name": "David Gamba",
+    "url": "https://davidgamba.org",
+    "institution": "University of Michigan"
+  },
+  {
+    "name": "Nathan Kim",
+    "url": "https://nathan-kim.org",
+    "institution": "University of Michigan"
   }
-
 ]
