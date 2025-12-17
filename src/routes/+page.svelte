@@ -2,23 +2,8 @@
   import { onMount } from "svelte";
   import Spin from "$lib/Spin.svelte";
   import Franklin from "$lib/Franklin.svelte";
+  import MrxQuote from "$lib/MrxQuote.svelte";
   import { Hammer } from '@lucide/svelte';
-
-  // For quote
-  let author = $state(undefined);
-  let body = $state(undefined);
-  
-  onMount(async () => {
-    try {
-      const quote = await fetch("https://leftist-quotes.com").then((res) =>
-        res.json(),
-      );
-      author = quote.attribution;
-      body = quote.body;
-    } catch (error) {
-      console.error('Failed to load quote:', error);
-    }
-  });
 
  // For Franklins
   let pageX = $state(0);
@@ -126,16 +111,15 @@
   
   <hr class="hr"/>
   
-  {#if body}
-    <p class="text-surface-300 text-left my-2">
-      {body}
-    </p>
-    <p class="text-right self-end my-2 text-surface-300">
-      &mdash;{author}
-    </p>
-  {:else}
-    <p class="my-2 text-surface-200">Loading quote...</p>
-  {/if}
+  <!-- The quotes -->
+  <MrxQuote>
+    {#snippet children({ body, author })}
+      <blockquote class="italic text-surface-300 text-left my-2 text-sm">
+        "{body}"
+      </blockquote>
+      <cite class="text-right self-end my-2 text-surface-300 text-sm">— {author}</cite>
+    {/snippet}
+  </MrxQuote>
   
   <!-- Animation Toggle Button -->
   <div class="fixed bottom-4 right-4">
