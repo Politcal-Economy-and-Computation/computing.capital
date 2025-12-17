@@ -37,9 +37,7 @@
 {/if}
 
 <div class="flex flex-col items-center" bind:clientHeight={maxHeight}>
-
   <h1>Political Economy and Algorithms Collective</h1>
-
 
     <div id="marx-image" class="relative">
     <img src="/marx.png" class="w-[450px] my-8" alt="A portrait of Karl Marx." />
@@ -48,7 +46,7 @@
         <img
           style={`transform: rotate(${d}deg);`}
           src="/marx-head.png"
-          class="absolute left-[100px] top-[65px] w-[275px]"
+          class="absolute left-[100px] top-[43px] w-[275px]"
           alt="A portrait of Karl Marx's head."
         />
       {/snippet}
@@ -114,10 +112,10 @@
   <!-- The quotes -->
   <MrxQuote>
     {#snippet children({ body, author })}
-      <blockquote class="italic text-surface-300 text-left my-2 text-sm">
+      <blockquote class="italic text-surface-400 text-left my-2 text-sm">
         "{body}"
       </blockquote>
-      <cite class="text-right self-end my-2 text-surface-300 text-sm">— {author}</cite>
+      <cite class="text-right self-end my-2 text-surface-400 text-sm">— {author}</cite>
     {/snippet}
   </MrxQuote>
   

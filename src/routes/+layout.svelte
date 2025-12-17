@@ -86,7 +86,7 @@
   </AppBar>
 
 
-  <main class="flex-1 w-full max-w-3xl mx-auto px-4 mt-8">
+  <main class="flex-1 w-full max-w-3xl mx-auto px-4 mt-4">
     {@render children()}
   </main>
 </div>
