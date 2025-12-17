@@ -1,38 +1,39 @@
-# sv
+# Political Economy of Computing Site
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+## Prerequisites
+- `pnpm` to be able to run the project. Rest of dependencies will follow with install
 
-## Creating a project
+## Getting started
 
-If you're seeing this, you've probably already done this step. Congrats!
+First, clone the repo
 
-```sh
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+To install dependencies, from repo root
 
 ```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+pnpm install
 ```
 
-## Building
-
-To create a production version of your app:
+For a dev server
 
 ```sh
-npm run build
+pnpm dev
 ```
 
-You can preview the production build with `npm run preview`.
+## To make edits
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+1. Please create a branch from main for new updates and features
+2. Once done, submit a pull request to main
+
+Building and deployment is configured via netlify.
+
+### Editing members
+
+To edit members, edit the `/static/data/members.json`. Each entry has format:
+
+```json
+{ 
+    "name": "Karl M.", 
+    "url": "https://en.wikipedia.org/wiki/Karl_Marx",
+    "institution": "Out There"
+}
+```
