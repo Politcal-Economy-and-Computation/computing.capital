@@ -1,0 +1,12 @@
+# CFP: Political Economy of Computing
+
+_More details soon..._
+
+## The M-C-M
+
+```python
+def mcm(m:Money):
+    capital = invest(m)
+    new_m = extract_surplus(capital)
+    return new_m
+```
