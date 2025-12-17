@@ -1,60 +1,27 @@
-<div class="wrapper">
-  <main>
-    <h1>Political Economy and Algorithms Collective</h1>
-    <h2>Members</h2>
-    <ul>
+<script>
+  import { onMount } from 'svelte';
+  
+  /**
+     * @type {any[] | null | undefined}
+     */
+  let members = $state([]);
+  
+  onMount(async () => {
+    const response = await fetch('/data/members.json');
+    members = await response.json();
+  });
+</script>
+
+<div class="flex flex-col items-center">
+  <h2>Members</h2>
+  <ul>
+    {#each members as member}
       <li>
-        Gena Kim • <a
-          href="https://gena.kim"
-          target="_blank"
-          rel="noopener noreferrer">https://gena.kim</a
-        > • University of Michigan
+        {member.name} • 
+        <a href={member.url} target="_blank" rel="noopener noreferrer">
+          {member.url}
+        </a> • {member.institution}
       </li>
-      <li>
-        Kevin Zheng • <a
-          href="https://ze.vin"
-          target="_blank"
-          rel="noopener noreferrer">https://ze.vin</a
-        > • University of Michigan
-      </li>
-      <li>
-        Justine Zhang • <a
-          href="https://tisjune.github.io"
-          target="_blank"
-          rel="noopener noreferrer">https://tisjune.github.io</a
-        > • University of Michigan
-      </li>
-    </ul>
-    <div class="spacer" style="height: 10rem;" />
-  </main>
+    {/each}
+  </ul>
 </div>
-
-<style>
-  .wrapper {
-    width: 100vw;
-    display: flex;
-    place-content: center;
-  }
-
-  main {
-    padding: 1rem;
-    max-width: min(72ch, 100%);
-    display: flex;
-    flex-direction: column;
-    place-items: center;
-  }
-
-  h1 {
-    text-align: center;
-  }
-
-  hr {
-    height: 0.1rem;
-    background: black;
-    width: 100%;
-  }
-
-  p {
-    margin: 0.5rem 0;
-  }
-</style>
