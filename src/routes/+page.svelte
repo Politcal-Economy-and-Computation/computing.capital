@@ -93,7 +93,7 @@
         >political-economy-and-algorithms-requests@umich.edu</a>, or fill out an onboarding form
       <a
         href="https://docs.google.com/forms/d/e/1FAIpQLScuyN_o_N-741zoRGouVn5SYfTh2x7TS3Wwh2jJUelAFa6xsA/viewform?usp=sf_link"
-        >here</a
+        target="_blank" rel="noopener noreferrer">here</a
       >. We may request to have a brief, informal conversation or email exchange
       with you prior to onboarding. Alternatively, talk to a member you know —
       anyone can add comrades to the group.

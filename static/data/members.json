@@ -2,36 +2,43 @@
   { 
     "name": "Gena Kim", 
     "url": "https://gena.kim", 
+    "display_url": "gena.kim",
     "institution": "University of Michigan" 
   },
   { 
     "name": "Kevin Zheng", 
     "url": "https://ze.vin", 
+    "display_url": "ze.vin",
     "institution": "University of Michigan" 
   },
   { 
     "name": "Justine Zhang", 
-    "url": "https://tisjune.github.io", 
+    "url": "https://tisjune.github.io",
+    "display_url": "tisjune.github.io", 
     "institution": "University of Michigan" 
   },
   { 
     "name": "Alicia DeVrio", 
-    "url": "https://www.aliciadevrio.com",
+    "url": "https://aliciadevrio.com",
+    "display_url": "aliciadevrio.com",
     "institution": "Carnegie Mellon University"
   },
   {
     "name": "Freddy Reiber",
-    "url": "https://freddyreiber.info/",
+    "url": "https://freddyreiber.info",
+    "display_url": "freddyreiber.info",
     "institution": "Boston University"
   },
   {
     "name": "David Gamba",
     "url": "https://davidgamba.org",
+    "display_url": "davidgamba.org",
     "institution": "University of Michigan"
   },
   {
     "name": "Nathan Kim",
     "url": "https://nathan-kim.org",
+    "display_url": "nathan-kim.org",
     "institution": "University of Michigan"
   }
 ]
