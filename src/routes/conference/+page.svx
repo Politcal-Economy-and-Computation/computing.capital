@@ -8,17 +8,17 @@ We are soliciting submissions (in the form of position papers) with the intent t
 
 Submission topics are open-ended but should generally forward a political economic perspective in critical studies of computing and emphasize historical and materialist approaches. Below are suggested topics/themes:
 
-* For a panel on data center resistance (in conversation with the local resistance movement in Southeast Michigan)
+ * For a panel on data center resistance (in conversation with the local resistance movement in Southeast Michigan)
     * The political economy of data centers, including the role of the state and corporate actors in advancing the rapid push for data centers
     * studies of environmental and labor exploitation
     * tactics for resistance and report-outs from resistance efforts
     * lessons from history that we could adopt for the current moment
-* Examples
+ * Examples
     * Papaevangelou, Charis, and Eugenia Siapera. "State, platform capitalism and infrastructural power: Microsoft's data centres in Greece 2.0." _Platforms & Society_ 2 (2025): 29768624251323325.
     * Quinn, Adam. "Computer Capitalism: Labor, Health, and Environment in the US Computer Industry." (2025)
 
-* Analyses of sites of production, value creation, and the role of technology in shaping social relations of exploitation and expropriation
-* Examples
+ * Analyses of sites of production, value creation, and the role of technology in shaping social relations of exploitation and expropriation
+ * Examples
     * Parsons, Amanda, and Salomé Viljoen. "Valuing social data." _Columbia Law Review_ 124.4 (2024): 993-1080.
     * Karen EC Levy. 2015. The contexts of control: Information, power, and truck-driving work. The Information Society 31, 2 (2015), 160–174.
     * Ramesh, Divya, et al. "How platform-user power relations shape algorithmic accountability: A case study of instant loan platforms and financially stressed users in India." _Proceedings of the 2022 ACM conference on fairness, accountability, and transparency_. 2022.
