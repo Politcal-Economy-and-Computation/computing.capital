@@ -45,21 +45,42 @@
   
   /* Lists */
   ul {
-    @apply space-y-2 list-disc list-inside mb-4;
+    @apply space-y-2 list-disc mb-4;
   }
-  
+
   ol {
-    @apply space-y-2 list-decimal list-inside mb-4;
+    @apply space-y-2 list-decimal mb-4;
   }
-  
+
   li {
-    @apply leading-relaxed;
+    @apply leading-relaxed ml-5;
   }
-  
+
+  /* Remove margins from paragraphs inside list items */
+  li > p {
+    @apply my-0;
+  }
+
   /* Nested lists */
   li > ul,
   li > ol {
-    @apply mt-2 ml-4;
+    @apply mt-2 ml-4 space-y-1;
+  }
+
+  /* Ensure nested list items have proper indentation */
+  ul ul,
+  ol ul {
+    @apply list-disc;
+  }
+
+  ul ol,
+  ol ol {
+    @apply list-decimal;
+  }
+
+  /* Handle tight vs loose lists */
+  li > p:only-child {
+    @apply inline;
   }
   
   /* Blockquotes */
