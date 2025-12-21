@@ -1,7 +1,88 @@
-# CFP: Political Economy of Computing
+# Call for Papers: The People’s Political Economy
+
+_A one day conference presented by the **Political Economy and Algorithms Collective**, as part of our series on **Technology and Democracy: Perspectives from Political Economy**_
+
+The Political Economy and Algorithms Collective is hosting a **one-day conference on May 2 in Ann Arbor, Michigan**. This conference will bring together researchers and organizers that are investigating the political economy of algorithms and computing, with the goals of identifying how we might bridge technology-related movements and struggles, and what the role of theory and the intellectual in a liberatory movement can/should be.
+
+We are soliciting submissions (in the form of position papers) with the intent to invite at least twelve presenters. Attendees may present a lightning talk or participate in a panel in conversation with others. All accepted position papers will be published on our website: <a href="https://computing.capital" target="_blank" rel="noopener noreferrer">computing.capital</a>.
+
+### Suggested Topics and Themes
+
+Submission topics are open-ended but should generally forward a political economic perspective in critical studies of computing and emphasize historical and materialist approaches. Below are suggested topics/themes:
+
+-----
+
+ _For a panel on data center resistance (in conversation with the local resistance movement in Southeast Michigan)_
+   * The political economy of data centers, including the role of the state and corporate actors in advancing the rapid push for data centers
+   * studies of environmental and labor exploitation
+   * tactics for resistance and report-outs from resistance efforts
+   * lessons from history that we could adopt for the current moment
+
+Examples:
+   * Papaevangelou, Charis, and Eugenia Siapera. "State, platform capitalism and infrastructural power: Microsoft's data centres in Greece 2.0." _Platforms & Society_ 2 (2025): 29768624251323325.
+   * Quinn, Adam. "Computer Capitalism: Labor, Health, and Environment in the US Computer Industry." (2025)
+
+-----
+
+_Analyses of sites of production, value creation, and the role of technology in shaping social relations of exploitation and expropriation_
+
+Examples:
+   * Parsons, Amanda, and Salomé Viljoen. "Valuing social data." _Columbia Law Review_ 124.4 (2024): 993-1080.
+   * Karen EC Levy. 2015. The contexts of control: Information, power, and truck-driving work. The Information Society 31, 2 (2015), 160–174.
+   * Ramesh, Divya, et al. "How platform-user power relations shape algorithmic accountability: A case study of instant loan platforms and financially stressed users in India." _Proceedings of the 2022 ACM conference on fairness, accountability, and transparency_. 2022.
+
+-----
+
+_Efforts to organize resistance with or in spite of technology_
+
+Examples:
+   * Sum, Cella M., Caroline Shi, and Sarah E. Fox. "'It's Always a Losing Game': How Workers Understand and Resist Surveillance Technologies on the Job." _Proceedings of the ACM on Human-Computer Interaction_ 9.2 (2025): 1-32.
+   * Miceli, Milagros, et al. "Methodological Considerations for Centering Workers’ Epistemic Authority in AI Research." _Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society_. Vol. 8. No. 2. 2025.
+   * Erin McElroy. 2023. DIS/POSSESSORY DATA POLITICS: From Tenant Screening to Anti-Eviction Organizing. International Journal of Urban and Regional Research 47, 1 (2023), 54–70.
+
+-----
+
+_Explorations of the role of finance, money, and ruling class interests in the development of technology._
+
+Examples:
+   * Sadowski, Jathan. _The Mechanic and the Luddite: A Ruthless Criticism of Technology and Capitalism_. Univ of California Press, 2025.
+   * Tandon, Udayan, et al. "Can Smartness Fail? The Charisma of High Tech as Class Politics." _Proceedings of the 2025 ACM Designing Interactive Systems Conference_. 2025.
+   * Wolf, Christine T., Mariam Asad, and Lynn S. Dombrowski. "Designing within capitalism." _Proceedings of the 2022 ACM Designing Interactive Systems Conference_. 2022.
+   * Gururaja, Sireesh, et al. "To build our future, we must know our past: Contextualizing paradigm shifts in natural language processing." _Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing_. 2023.
+
+-----
+
+This is not an exhaustive list; we welcome submissions on topics that are not listed above but are in the spirit of this CFP.
+
+### Format
+
+2 page limit (without citations): position paper, extended abstract, etc. [TEMPLATE TBA]
+
+### Submission process
+
+Send a pdf to us at [EMAIL TBD]. Questions can be directed to [EMAIL TBD].
+
+### Deadline
+
+Submissions close: Jan 31, 2026, 11:59 pm EST
+
+### Attending and Logistics
+
+**Date**: Saturday, May 2, 2026
+
+**Location**: (Venue TBD), University of Michigan, Ann Arbor, Michigan, United States 
+
+**Cost**: No attendance or registration fees
+
+**Travel**: Nearest airport is DTW (25 miles, accessible by bus), nearest train stationis Ann Arbor (2 miles)
+
+**Financial Support**: Available for round-trip travel to Ann Arbor from the US and Canada for accepted presenters. Organizers will be in contact with presenters to arrange travel and lodging plans.
+
+<br><br>
 
 _More details soon..._
 
+<!-- 
 ## The M-C-M
 
 ```python
@@ -9,4 +90,4 @@ def mcm(m:Money):
     capital = invest(m)
     new_m = extract_surplus(capital)
     return new_m
-```
+``` -->
