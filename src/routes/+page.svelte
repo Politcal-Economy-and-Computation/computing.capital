@@ -119,6 +119,8 @@
     {/snippet}
   </MrxQuote>
   
+  <br><br>
+
   <!-- Animation Toggle Button -->
   <div class="fixed bottom-4 right-4">
     <button
